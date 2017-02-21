@@ -10,6 +10,10 @@ namespace EmailSender.Host
         {
             ContaineResolver.Register<IEmailSenderManager, EmailSenderManager>();
             ContaineResolver.Register<IEmailHandler, EmailHandler>();
+            ContaineResolver.Register<ISmtpConfiguration, SmtpConfiguration>();
+            ContaineResolver.Register<ISmtpProvider, SmtpProvider>();
+            ContaineResolver.Register<IEmailMessageConfiguration, EmailMessageConfiguration>();
+            ContaineResolver.Register<IEmailProvider, EmailProvider>();
         }
     }
 }
