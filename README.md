@@ -1,4 +1,4 @@
-# EmailSender
+# EmailSender implemented according to Juval Lowy's architecture
 EmailSender organized in Layers:
 * Infrastructure - used to handle injections
 * Host - used to bootstrap the service as a windows console application
